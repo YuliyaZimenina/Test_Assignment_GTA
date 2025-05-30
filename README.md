@@ -91,33 +91,39 @@ frequency analysis, and Chi-square analysis) were implemented in the application
 
 ## Screenshots
 
-1. Application Launch:
+**1. Application Launch:**
 
-   <img src="images/Application_start.png" alt="Application Start" width="500">
+   <img src="src/images/Application_start.png" alt="Application Start" width="500">
 
-2. Caesar Cipher (English Alphabet):
+   
+**2. Caesar Cipher (English Alphabet):**
 
-   <img src="images/Caesar_cipher.png" alt="Caesar Cipher English" width="500">
+   <img src="src/images/Caesar_cipher.png" alt="Caesar Cipher English" width="500">
 
-3. Caesar Cipher (Russian Alphabet):
 
-   <img src="images/Caesar_cipher_rus.png" alt="Caesar Cipher Russian" width="500">
+**3. Caesar Cipher (Russian Alphabet):**
 
-4. Decryption (Russian Alphabet):
+   <img src="src/images/Caesar_cipher_rus.png" alt="Caesar Cipher Russian" width="500">
 
-   <img src="images/Decrypt_rus.png" alt="Decryption Russian" width="500">
 
-5. Decryption (English Alphabet):
+**4. Decryption (Russian Alphabet):**
 
-   <img src="images/Decrypt_latin.png" alt="Decryption English" width="500">
+   <img src="src/images/Decrypt_rus.png" alt="Decryption Russian" width="500">
 
-6. Decryption Without Shift:
 
-   <img src="images/Decrypt_without_shift.png" alt="Decryption Without Shift" width="500">
+**5. Decryption (English Alphabet):**
 
-7. Arithmetic Expression:
+   <img src="src/images/Decrypt_latin.png" alt="Decryption English" width="500">
 
-   <img src="images/Arithmetic_expression.png" alt="Arithmetic Expression" width="500">
+
+**6. Decryption Without Shift:**
+
+   <img src="src/images/Decrypt_without_shift.png" alt="Decryption Without Shift" width="500">
+
+
+**7. Arithmetic Expression:**
+
+   <img src="src/images/Arithmetic_expression.png" alt="Arithmetic Expression" width="500">
 
 
 
