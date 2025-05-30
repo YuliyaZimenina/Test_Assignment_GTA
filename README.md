@@ -19,7 +19,7 @@ Supports:
 - Text encryption and decryption (Russian and English alphabets), taking 
 into account case and non-alphabetic characters.
 - Calculation of arithmetic expressions with support for:
-- Operations: '+', '-', '*', '/'
+- Operations: '+', '-', ' * ', ' / '
 - Parentheses
 - Decimal and negative numbers
 
@@ -61,7 +61,7 @@ frequency analysis, and Chi-square analysis) were implemented in the application
 - Supports console and file input (InputHandler.java).
 - Implemented decryption with and without specifying a shift.
 
-  2. **Arithmetic expression evaluator:**
+2. **Arithmetic expression evaluator:**
 - Parses and evaluates expressions taking into account PEMDAS/BODMAS (ExpressionParser.java, ExpressionEvaluator.java).
 - Supports nested parentheses.
 - Processes decimal and negative numbers.
@@ -73,47 +73,51 @@ frequency analysis, and Chi-square analysis) were implemented in the application
 
 ## Usage Examples
 
-- **Caesar Cipher**
+**Caesar Cipher**
+
 **Input** ```Hello Java!```, shift: ```3``` -> **Output:** ```Khoor Mdyd!```
+  
 **Input** ```Привет, Джава!!```, shift: ```6``` -> **Output:** ```Хцозкш, Ймёзё!```
 
-- **Decoding the Caesar Cipher**
+**Decoding the Caesar Cipher**
+  
   **Input** ```Khoor Mdyd!```, shift: ```3``` -> **Output:** ```Hello Java!```
 
-  - **Arithmetic Expression Evaluation**
+**Arithmetic Expression Evaluation**
+
 **Input** ```7 + 9 * 2``` -> **Output:** ```25.00```
 **Input** ```(4 + 10) / 2``` -> **Output:** ```7.00```
 **Input** ```-23 + 13``` -> **Output:** ```-10.00```
 
-  ## Screenshots
+## Screenshots
 
-1. The application launch:
+1. Application Launch:
 
- <img src="images/Application_start.png" alt="start" width="500">
+   <img src="images/Application_start.png" alt="Application Start" width="500">
 
-2. Ceaser cipher (English alphabet):
+2. Caesar Cipher (English Alphabet):
 
-   <img src="images/Caesar_cipher.png" alt="ceaser" width="500">
+   <img src="images/Caesar_cipher.png" alt="Caesar Cipher English" width="500">
 
-3. Ceaser cipher (Russian alphabet):
+3. Caesar Cipher (Russian Alphabet):
 
- <img src="images/Caesar_cipher_rus.png" alt="decryption" width="500">
+   <img src="images/Caesar_cipher_rus.png" alt="Caesar Cipher Russian" width="500">
 
-4. Decryption (Russian alphabet):
+4. Decryption (Russian Alphabet):
 
-<img src="images/Decrypt_rus.png" alt="decryption" width="500">
+   <img src="images/Decrypt_rus.png" alt="Decryption Russian" width="500">
 
-5. Decryption (English alphabet):
+5. Decryption (English Alphabet):
 
-<img src="images/Decrypt_latin.png" alt="decryption" width="500">
+   <img src="images/Decrypt_latin.png" alt="Decryption English" width="500">
 
-6. Decrypt without shift:
+6. Decryption Without Shift:
 
-<img src="images/Decrypt_without_shift.png" alt="decryption" width="500">
+   <img src="images/Decrypt_without_shift.png" alt="Decryption Without Shift" width="500">
 
-7. Arithmetic expression:
+7. Arithmetic Expression:
 
-<img src="images/Arithmetic_expression.png" alt="decryption" width="500">
+   <img src="images/Arithmetic_expression.png" alt="Arithmetic Expression" width="500">
 
 
 
