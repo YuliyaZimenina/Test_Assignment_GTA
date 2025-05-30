@@ -87,19 +87,17 @@ frequency analysis, and Chi-square analysis) were implemented in the application
 
   ## Screenshots
 
-  ## Screenshots
-
 1. The application launch:
 
  <img src="images/Application_start.png" alt="start" width="500">
 
 2. Ceaser cipher (English alphabet):
 
-   <img src="images/Ceaser_cipher.png" alt="ceaser" width="500">
+   <img src="images/Caesar_cipher.png" alt="ceaser" width="500">
 
 3. Ceaser cipher (Russian alphabet):
 
- <img src="images/Ceaser_cipher_rus.png" alt="decryption" width="500">
+ <img src="images/Caesar_cipher_rus.png" alt="decryption" width="500">
 
 4. Decryption (Russian alphabet):
 
@@ -111,9 +109,12 @@ frequency analysis, and Chi-square analysis) were implemented in the application
 
 6. Decrypt without shift:
 
-<img src="images/Decrypt_without_shifr.png" alt="decryption" width="500">
+<img src="images/Decrypt_without_shift.png" alt="decryption" width="500">
 
 7. Arithmetic expression:
 
 <img src="images/Arithmetic_expression.png" alt="decryption" width="500">
+
+
+
 
