@@ -96,31 +96,31 @@ Supports PEMDAS, brackets, decimals, and negatives.
 
 1. The application launch:
 
- <img src="images/1.%20application_start.png" alt="start" width="500">
+ <img src="images/Application_start.png" alt="start" width="500">
 
 2. Ceaser cipher (English alphabet):
 
-   <img src="images/2.%20ceaser_cipher.png" alt="ceaser" width="500">
+   <img src="images/Caesar_cipher.png" alt="ceaser" width="500">
 
 3. Ceaser cipher (Russian alphabet):
 
- <img src="images/3.%20ceaser_cipher_rus.png" alt="decryption" width="500">
+ <img src="images/Caesar_cipher_rus.png" alt="decryption" width="500">
 
 4. Decryption (Russian alphabet):
 
-<img src="images/4.decrypt_rus.png" alt="decryption" width="500">
+<img src="images/Decrypt_rus.png" alt="decryption" width="500">
 
 5. Decryption (English alphabet):
 
-<img src="images/5.decrypt_latin.png" alt="decryption" width="500">
+<img src="images/Decrypt_latin.png" alt="decryption" width="500">
 
 6. Decrypt without shift:
 
-<img src="images/6.%20decrypt_without_shifr.png" alt="decryption" width="500">
+<img src="images/Decrypt_without_shift.png" alt="decryption" width="500">
 
 7. Arithmetic expression:
 
-<img src="images/7.%20arithmetic_expression.png" alt="decryption" width="500">
+<img src="images/Arithmetic_expression.png" alt="decryption" width="500">
 
 
 
