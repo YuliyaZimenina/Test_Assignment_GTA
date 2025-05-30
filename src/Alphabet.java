@@ -66,4 +66,13 @@ public class Alphabet {
         char shiftResult = alphabet.charAt(newIndexLetter);
         return isUpper ? Character.toUpperCase(shiftResult) : shiftResult;
     }
+
+    // Getters for accessing alphabet constants from other classes
+    public static String getLatinAlphabet(){
+        return LATIN_ALPHABET;
+    }
+
+    public static String getRussianAlphabet(){
+        return RUSSIAN_ALPHABET;
+    }
 }

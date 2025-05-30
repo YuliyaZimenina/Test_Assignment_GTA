@@ -22,8 +22,8 @@ into account case and non-alphabetic characters.
 brackets, decimal and negative numbers.
 - Console and file input, error handling, and modular architecture.
 
-To optimize the solution of the task, fundamental algorithms (Caesar cipher, Shunting Yard) 
-were implemented in the application.
+To optimize the solution of the task, fundamental algorithms (Caesar cipher, Shunting Yard, 
+Frequency analysis, Chi-square) were implemented in the application.
 
 ## Technical requirements
 
@@ -48,8 +48,9 @@ directory of the project with text in UTF-8 encoding.
 
 ## Approach and assumptions
 
-1. **Caesar Cipher:** Implemented using two alphabets (Russian and English). Supports wrap-around, case preservation, 
-and handling of non-alphabetic characters. Decryption without shifting shows the result of enumerating all stages.
+1. **Caesar Cipher:** implemented using two alphabets (Russian and English). Supports hyphenation, case preservation and
+processing of non-alphabetic characters. Decryption without shift shows the most suitable decryption result of the 
+incoming text. Frequency analysis and chi-square are used to select the best decryption result of the incoming text.
 2. **Expression Evaluator:** Uses the sorting yard algorithm to convert expressions to RPN and a stack for calculation. 
 Supports PEMDAS, brackets, decimals, and negatives.
 3. **Modularity:** The code is divided into classes for encryption, analysis, calculations, and input/output.
@@ -95,15 +96,32 @@ Supports PEMDAS, brackets, decimals, and negatives.
 
 1. The application launch:
 
- <img src="images/1.png" alt="start" width="500">
+ <img src="images/1.%20application_start.png" alt="start" width="500">
 
-2. Ceaser cipher:
+2. Ceaser cipher (English alphabet):
 
-   <img src="images/2.png" alt="ceaser" width="500">
+   <img src="images/2.%20ceaser_cipher.png" alt="ceaser" width="500">
 
-3. Ceaser decryption:
+3. Ceaser cipher (Russian alphabet):
 
- <img src="images/3.png" alt="decryption" width="500">
+ <img src="images/3.%20ceaser_cipher_rus.png" alt="decryption" width="500">
+
+4. Decryption (Russian alphabet):
+
+<img src="images/4.decrypt_rus.png" alt="decryption" width="500">
+
+5. Decryption (English alphabet):
+
+<img src="images/5.decrypt_latin.png" alt="decryption" width="500">
+
+6. Decrypt without shift:
+
+<img src="images/6.%20decrypt_without_shifr.png" alt="decryption" width="500">
+
+7. Arithmetic expression:
+
+<img src="images/7.%20arithmetic_expression.png" alt="decryption" width="500">
+
 
 
 

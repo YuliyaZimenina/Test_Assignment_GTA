@@ -3,7 +3,7 @@
  */
 public class OutputHandler {
     // Method for displaying the main menu.
-    public void printMainMenu(){
+    public void printMainMenu() {
         System.out.println("Welcome to Gehtsoft Technical Assessment!");
         System.out.println("Select an option: ");
         System.out.println("1. Caesar encryption.");
@@ -14,32 +14,28 @@ public class OutputHandler {
     }
 
     // Method for outputting the result.
-    public void printResult(String result){
+    public void printResult(String result) {
         System.out.println("Result: " + result);
     }
 
     // Method for outputting the result of an arithmetic expression.
-    public void printResult(double result){
+    public void printResult(double result) {
         System.out.printf("Result: %.2f%n", result);
     }
 
     // Method for outputting decryption the result without shift.
-    public void printDecryptionWithoutShiftResult(String[] results){
-        /* A for loop that iterates through the indices of results array from
-         0 to results.length - 1.
-         */
-        for (int i = 0; i < results.length; i++) {
-            /*
-            For each element of the results array, outputs a line like "Shift X: <result>", where:
-            i + 1 is the shift number (starts with 1, not 0, for the user's convenience).
-            results[i] is the decoding result for the current shift.
-             */
-            System.out.println("Shift " + (i + 1) + ": " + results[i]);
+    public void printDecryptionWithoutShiftResult(String[] results) {
+
+        // Output the most suitable decryption result, which is in 'results[0]'.
+        if (results[0] != null) {
+            System.out.println("Best decryption result: " + results[0]);
+        } else {
+            System.out.println("No valid decryption result found.");
         }
     }
 
     // Method for displaying error message.
-    public void printErrorMessage(String message){
+    public void printErrorMessage(String message) {
         System.err.println("Error: " + message);
     }
 
