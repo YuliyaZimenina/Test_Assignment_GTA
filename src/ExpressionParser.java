@@ -98,7 +98,7 @@ public class ExpressionParser {
                     /*If the stack isn't empty and the top element is an opening parenthesis '(',
                      pops it off the stack.
                      */
-                    if (!operatorStack.isEmpty() && !operatorStack.peek().equals("(")) {
+                    if (!operatorStack.isEmpty() && operatorStack.peek().equals("(")) {
                         operatorStack.pop(); // The bracket is removed as it isn't needed in RPN.
                     /*
                     If the stack is empty or the top element isn't '(', an IllegalArgumentException is thrown
